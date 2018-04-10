@@ -5,12 +5,13 @@
  */
 
  import React, { Component } from 'react';
- import { AppRegistry, ListView, Text, View } from 'react-native';
+ import { AppRegistry, ListView, Text, View, Navigator} from 'react-native';
+ import routers from './routers';
 
 var LoginView = require("./src/pages/loginPage");
 export default class App extends Component{
     static defaultProps = {
-      title: 'MyScene',
+        title: 'MyScene',
         aaa: 'aaa'
     };
 
