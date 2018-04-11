@@ -10,7 +10,10 @@ clone项目:
 >npm i
 
 安装react-native 脚手架
->react-native start
+>npm install -g react-native-cli
+
+启动react-native
+react-native start
 
 启动安卓虚拟机就可以使用了
 
